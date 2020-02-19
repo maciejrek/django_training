@@ -26,6 +26,6 @@ urlpatterns = [
     #     ),
     #     name='login'),
     #path('logout/', LogoutView.as_view(next_page='/'), name='logout'),
-    path('blog/',include('blog.urls')),
+    path('',include('blog.urls')),
     path('admin/', admin.site.urls),
 ]
