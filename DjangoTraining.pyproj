@@ -53,6 +53,13 @@
     <Compile Include="DjangoTraining\settings.py" />
     <Compile Include="DjangoTraining\urls.py" />
     <Compile Include="DjangoTraining\wsgi.py" />
+    <Compile Include="users\admin.py" />
+    <Compile Include="users\apps.py" />
+    <Compile Include="users\migrations\__init__.py" />
+    <Compile Include="users\models.py" />
+    <Compile Include="users\tests.py" />
+    <Compile Include="users\views.py" />
+    <Compile Include="users\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
@@ -71,6 +78,10 @@
     <Folder Include="blog\templates\" />
     <Folder Include="blog\templates\blog\" />
     <Folder Include="DjangoTraining\" />
+    <Folder Include="users\" />
+    <Folder Include="users\migrations\" />
+    <Folder Include="users\templates\" />
+    <Folder Include="users\templates\users\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="blog\static\blog\main.css" />
@@ -108,6 +119,8 @@
     <Content Include="app\templates\app\layout.html" />
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
+    <Content Include="users\templates\users\index.html" />
+    <Content Include="users\templates\users\register.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.html">
