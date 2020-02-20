@@ -43,6 +43,9 @@
     <Compile Include="blog\migrations\__init__.py" />
     <Compile Include="blog\models.py" />
     <Compile Include="blog\tests.py" />
+    <Compile Include="blog\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="blog\views.py" />
     <Compile Include="blog\__init__.py" />
     <Compile Include="manage.py" />
@@ -63,11 +66,17 @@
     <Folder Include="app\templates\app\" />
     <Folder Include="blog\" />
     <Folder Include="blog\migrations\" />
+    <Folder Include="blog\static\" />
+    <Folder Include="blog\static\blog\" />
     <Folder Include="blog\templates\" />
     <Folder Include="blog\templates\blog\" />
     <Folder Include="DjangoTraining\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="blog\static\blog\main.css" />
+    <Content Include="blog\templates\blog\about.html" />
+    <Content Include="blog\templates\blog\base.html" />
+    <Content Include="blog\templates\blog\home.html" />
     <Content Include="blog\templates\blog\index.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
