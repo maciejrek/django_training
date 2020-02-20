@@ -114,9 +114,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 STATIC_URL = '/static/'
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
+#
+MEDIA_ROOT = os.path.join(BASE_DIR,'media') #path to store uploaded files in a filesystem
+MEDIA_URL = '/media/' #how we are going access the image in the browser
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_TEMPLATE_PACK = 'bootstrap4' #crispy 
 
-LOGIN_REDIRECT_URL = 'blog-home'
-
+LOGIN_REDIRECT_URL = 'blog-home' 
 LOGIN_URL = 'login'
+
