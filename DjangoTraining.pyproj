@@ -97,7 +97,10 @@
     <Content Include="blog\templates\blog\base.html" />
     <Content Include="blog\templates\blog\home.html" />
     <Content Include="blog\templates\blog\index.html" />
-    <Content Include="media\profile_pics\default.jpg" />
+    <Content Include="blog\templates\blog\post_confirm_delete.html" />
+    <Content Include="blog\templates\blog\post_detail.html" />
+    <Content Include="blog\templates\blog\post_form.html" />
+    <Content Include="media\default.jpg" />
     <Content Include="media\profile_pics\dsc_1314.jpg" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
